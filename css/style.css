@@ -5,6 +5,13 @@
     box-sizing: border-box;
 }
 
+/* CLEARFIX */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* REGOLE GENERALI */
 body{
     font-family: 'Roboto', sans-serif;
@@ -16,12 +23,38 @@ body{
     padding: 40px 0;
 }
 
-.centered-text {
-    text-align: center;
-}
-
-/* HEADER DEL MAIN */
+/* HEADER E PRIMO PARAGRAFO */
 h1 {
     color: #e53171;
     margin-bottom: 50px;
+    text-align: center;
+}
+
+.intro {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* COLONNE */
+.column {
+    background-color: #e53171;
+    border: 1px solid black;
+    width: calc(100% / 3);
+    float: left;
+}
+
+
+
+
+
+/* CARD */
+
+.card {
+    color: white;
+}
+
+
+.card a {
+    color: #289bd8;
+    text-decoration: none;
 }
