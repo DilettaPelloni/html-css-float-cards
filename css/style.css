@@ -23,6 +23,10 @@ body{
     padding: 40px 0;
 }
 
+.float-left {
+    float: left;
+}
+
 /* HEADER E PRIMO PARAGRAFO */
 h1 {
     color: #e53171;
@@ -37,20 +41,28 @@ h1 {
 
 /* COLONNE */
 .column {
-    background-color: #e53171;
-    border: 1px solid black;
+    /* background-color: #e53171;
+    border: 1px solid black; */
     width: calc(100% / 3);
-    float: left;
 }
-
-
-
-
 
 /* CARD */
 
 .card {
+    background-color: #0F0E17;
     color: white;
+}
+
+.card img {
+    width: 30%;
+}
+
+.text-box {
+    padding: 10px;
+}
+
+.card p {
+    margin:5px 0;
 }
 
 
