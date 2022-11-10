@@ -4,3 +4,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* REGOLE GENERALI */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+/* HEADER DEL MAIN */
+h1 {
+    color: #e53171;
+    margin-bottom: 50px;
+}
